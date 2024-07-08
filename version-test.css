@@ -29,6 +29,7 @@
 .block-c {
     margin-top: 15px;
     margin-bottom: 15px;
+
     .contect {
         width: 100%;
         position: relative;
@@ -70,27 +71,39 @@
         background-color: rgb(210, 255, 255);
         left: 40px;
         right: 40px;
-        h1 {margin: 0 auto}
+
+        h1 {
+            margin: 0 auto
+        }
+
         overflow-y: auto;
         white-space: nowrap;
     }
 }
 
-.block-l{
+.block-l {
     background-color: rgb(210, 255, 255);
     margin-top: 15px;
     /*水平滚轮自动出现,自动换行关闭*/
     overflow-y: auto;
     white-space: nowrap;
+
     .time-view {
         background-color: rgb(210, 255, 255);
         left: 40px;
         right: 40px;
-        h1 {margin: 0 auto}
+
+        h1 {
+            margin: 0 auto
+        }
     }
+
     .contect {
         width: 100%;
         position: relative;
-        ul {margin: 0 auto}
+
+        ul {
+            margin: 0 auto
+        }
     }
 }
