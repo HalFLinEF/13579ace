@@ -1,0 +1,33 @@
+/*头(固定)*/
+.header {
+    /*位置在顶端,高度为70px*/
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    /*固定元素,字体居中,行间距50%*/
+    position: fixed;
+    text-align: center;
+    line-height: 50%;
+    /*设置背景*/
+    background-color: lightgray;
+    box-shadow: 0px 10px gray;
+}
+
+/*尾(固定)*/
+.bottom {
+    /*位置在底部,高度为50px*/
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 35px;
+    /*固定元素,字体居中,行间距50%*/
+    position: fixed;
+    text-align: center;
+    line-height: 25%;
+    /*设置背景*/
+    background-color: lightgray;
+    box-shadow: 0px -10px gray;
+    /*到时候删掉*/
+    display: none;
+}

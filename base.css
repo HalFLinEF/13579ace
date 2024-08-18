@@ -1,0 +1,46 @@
+/*背景*/
+body {
+    /*设置背景*/
+    background-color: azure;
+    font-family: "system-ui" sans-serif;
+}
+
+/*设置时间展示*/
+.timeview {
+    /*设置位置*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 25px;
+    /*设置背景*/
+    background-color: #95e1d3;
+}
+
+.tc {
+    font-size: small;
+    text-decoration: line-through;
+    text-align: right;
+    line-height: 0%;
+}
+
+.tc::before {
+    content: "吐槽: ";
+}
+
+.tips {
+    text-align: center;
+    line-height: normal;
+    font-size: xx-large;
+    /*设置位置*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 45px;
+    /*设置背景*/
+    background-color: #95e1d3;
+    /*水平滚轮自动出现,自动换行关闭*/
+    overflow-y: hidden;
+    white-space: nowrap;
+}

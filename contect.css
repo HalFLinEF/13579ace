@@ -1,0 +1,57 @@
+/*通过*/
+/*正文(活动)*/
+.contect {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+/*设置图片格式*/
+.img {
+    /*大小128px x 128px,左侧浮动*/
+    float: left;
+    height: 128px;
+    width: 128px;
+    /*阴影*/
+    box-shadow: 10px -10px #fce38a;
+}
+
+/*设置歌曲描述格式*/
+.info {
+    height: 128px;
+    /*设置与左边的间距,行间距*/
+    margin-left: 148px;
+    line-height: 30%;
+    /*阴影*/
+    background-color: #95e1d3;
+    box-shadow: 10px -10px #fce38a;
+    /*水平滚轮自动出现,自动换行关闭*/
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+/*落选*/
+/*正文(活动)*/
+.contect-lost {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    /*设置行间距*/
+    line-height: 100%;
+    /*设置背景*/
+    background-color: #95e1d3;
+    /*水平滚轮自动出现,自动换行关闭*/
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.contect-lost ul {
+    counter-reset: main;
+}
+
+.cl li::before {
+    list-style: none;
+    counter-increment: main;
+    content: counter(main)'. ';
+}
